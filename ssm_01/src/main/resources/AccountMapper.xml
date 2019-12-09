@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间;为映射文件指定一个唯一的路径-->
+<mapper namespace="cn.bdqn.mapper">
+    <select id="selectAllAccount" resultType="cn.bdqn.domain.account">
+        select id , name , password from account
+    </select>
+
+</mapper>
