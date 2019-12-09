@@ -24,7 +24,7 @@ public class AccountController {
         return "queryAll";
     }
 
-
+    //git@github.com:spring-mybatis-hsh/Y225-git-hsh.git
 
     @RequestMapping(value = "register")
     public String register(Account account){
